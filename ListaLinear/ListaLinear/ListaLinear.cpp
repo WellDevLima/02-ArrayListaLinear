@@ -115,10 +115,10 @@ void buscarElemento()
 				if (lista[i] == nmBusca) {
 					cout << "A posicao correspondente a este numero e: " << i << endl;
 					nmEncontrado = true;
-					break;
 				}
 				if (!nmEncontrado) {
 					cout << "Elemento nao encontrado na lista." << endl;
+					break;
 				}
 			}
 
